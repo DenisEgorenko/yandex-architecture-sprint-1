@@ -1,20 +1,20 @@
 import React from "react";
 import { Route, useHistory, Switch } from "react-router-dom";
 import Header from "./Header";
-import Main from "./Main";
+import Main from "../../main-microfrontend/components/Main";
 import Footer from "./Footer";
 import PopupWithForm from "./PopupWithForm";
-import ImagePopup from "./ImagePopup";
+import ImagePopup from "../../main-microfrontend/components/ImagePopup";
 import api from "../utils/api";
 import { CurrentUserContext } from "../contexts/CurrentUserContext";
-import EditProfilePopup from "./EditProfilePopup";
-import EditAvatarPopup from "./EditAvatarPopup";
-import AddPlacePopup from "./AddPlacePopup";
-import Register from "./Register";
-import Login from "./Login";
+import EditProfilePopup from "../../main-microfrontend/components/EditProfilePopup";
+import EditAvatarPopup from "../../main-microfrontend/components/EditAvatarPopup";
+import AddPlacePopup from "../../main-microfrontend/components/AddPlacePopup";
+import Register from "../../auth-microfrontend/components/Register";
+import Login from "../../auth-microfrontend/components/Login";
 import InfoTooltip from "./InfoTooltip";
 import ProtectedRoute from "./ProtectedRoute";
-import * as auth from "../utils/auth.js";
+import * as auth from "../../auth-microfrontend/utils/auth.js";
 
 function App() {
   const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] =
