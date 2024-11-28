@@ -72,3 +72,5 @@
 _Уровень 3 для задания 1 не реализован_
   
 # Задание 2
+
+https://drive.google.com/file/d/1doiD2ZgoSXXPnSWKMPIO8HMFOm0ipSzP/view?usp=share_link
